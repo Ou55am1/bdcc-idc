@@ -12,7 +12,7 @@ public class MetierImpl implements IMetier {
 
     private IDao dao;
 
-    public MetierImpl(@Qualifier("dao2") IDao dao) {
+    public MetierImpl(IDao dao) {
         this.dao = dao;
     }
 
